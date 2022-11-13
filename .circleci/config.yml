@@ -10,5 +10,5 @@ version: 2.1
       - run: make test       
 workflows: 
   basic:  
-     jobs: 
+    jobs: 
        - build-and-test 
